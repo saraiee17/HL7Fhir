@@ -1,0 +1,35 @@
+{
+    "resourceType": "Patient",
+    "name": [
+        {
+            "use": "official",
+            "given": ["Sarai"],
+            "family": "Escobar"
+        }
+    ],
+    "gender": "female",
+    "birthDate": "1994-12-17",
+    "telecom": [
+        {
+            "value": "7732020LUNA",
+            "use": "mobile",
+            "system": "phone"
+        },
+        {
+            "system": "email",
+            "value": "thisisanemail@gmail.com"
+        }
+    ],
+    "address": [
+        {
+            "line": [
+                "2000 W Diversy Pkwy"
+            ],
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60614"
+
+        }
+    ]
+
+}
