@@ -1,6 +1,7 @@
 {
     "resourceType": "Observation",
-    "status": "final",
+    "id":"47859525",
+    "status": "corrected",
     "code": {
         "coding": [
             {
@@ -15,7 +16,7 @@
         "display": "Sarai Escobar"
     },
     "valueQuantity": {
-        "value": 6.3,
+        "value": 4.7,
         "unit": "mmol/l",
         "system": "http://unitsofmeasure.org",
         "code": "mmol/L"
