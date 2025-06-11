@@ -1,0 +1,23 @@
+{
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://loimc.org",
+                "code": "15074-8",
+                "display": "Glucose [Moles/volume] in Blood" 
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/f001",
+        "display": "Sarai Escobar"
+    },
+    "valueQuantity": {
+        "value": 6.3,
+        "unit": "mmol/l",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+    }
+}
