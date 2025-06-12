@@ -1,0 +1,45 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:patient",
+            "resource":{
+                "resourceType": "Patient",
+                "name": [
+                    {
+                        "given": [
+                            "HL7FhirBundle"
+                        ]
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            }
+        },
+        {
+            "resource":{
+                "resourceType": "Observation",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "testObservation",
+                            "system": "someRandomSystem",
+                            "display": "Test Observation for patient HL7FhirBundle"
+                        }
+                    ]
+                },    
+                "subject": {
+                    "type" :"Patient",
+                    "reference": "urn:uuid:patient"
+                } 
+
+            },
+            "request": {
+                "method": "POST"
+            }
+        }
+    ]
+}
